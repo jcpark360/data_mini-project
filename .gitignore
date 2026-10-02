@@ -1,0 +1,21 @@
+# Local Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Raw battery data (multi-GB, downloaded separately)
+archive/
+*.mat
+
+# Operating-system and editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local caches and logs
+.cache/
+*.log

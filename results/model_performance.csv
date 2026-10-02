@@ -1,0 +1,10 @@
+Index,MAPE,MAPE_std,note
+Train (Batch 1 CV),0.08835816824944938,0.010596643425067439,5-fold GroupKFold by charging policy
+Valid (Batch 1 Hold-out),0.07085145429749344,,policy-disjoint stratified 25% hold-out
+Test (Batch 2),0.24393666096431055,,mandatory external batch test
+Gap (Train-Valid),-0.017506713951955938,,(+) : overfitting suspected
+Gap (Valid-Test),0.1730852066668171,,(+) : batch generalization loss
+Gap (Target-Test),0.15293666096431055,,paper target = 9.1%
+Test (Batch 3),0.12706934850195095,,additional external batch test
+Gap (Batch2-Batch3),-0.1168673124623596,,(+) means Batch 3 is worse
+"Gap (Target-Test, Batch 3)",0.036069348501950954,,paper target = 9.1%
