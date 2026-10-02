@@ -100,8 +100,8 @@ ess_data/
 ## 실행 방법
 
 ```bash
-git clone <repository-url>
-cd ess_data
+git clone https://github.com/jcpark360/data_mini-project.git
+cd data_mini-project
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
